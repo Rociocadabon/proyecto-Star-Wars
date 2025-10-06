@@ -1,0 +1,78 @@
+/* Fondo de la página */
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-align: center; /* centra títulos */
+}
+
+
+/* Imperio en rojo */
+.imperio {
+  background-color: rgba(255, 0, 0, 0.897);
+}
+
+/* Rebeldes en azul */
+.rebeldes {
+  background-color: rgba(7, 7, 202, 0.6);
+}
+
+/* Darth Vader: letra más grande */
+#darthVader {
+  font-size: 24px;
+}
+
+/* Luke en itálica */
+#luke {
+  font-style: italic;
+}
+
+/* Soldados: borde y separación entre letras */
+.soldados {
+  border: 3px dashed yellow;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+
+/* Apoyo centrado */
+.apoyo {
+  text-align: center;
+}
+
+/* Naves en mayúsculas */
+.naves {
+  text-transform: uppercase;
+}
+
+/* Droides centrados */
+.droides {
+  text-align: center;
+}
+
+/* Todas las imágenes mismo tamaño */
+img {
+  height: 200px;
+  width: auto;
+  margin: 10px;
+}
+
+/* Quitar viñetas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
